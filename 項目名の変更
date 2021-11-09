@@ -1,0 +1,2 @@
+sample$性別<-sample$性別 %>% 
+  str_replace_all(c("01_男性" = "1","02_女性" ="2"))
