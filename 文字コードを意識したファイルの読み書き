@@ -1,0 +1,2 @@
+ff<-read_csv("ファイル名",locale = locale(encoding = "utf8"))#UTF-8ファイルの読み込み
+write.csv(data,"ファイル名",fileEncoding="CP932",row.names = FALSE)#shifr-jisファイルの書き出し
